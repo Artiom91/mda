@@ -1,0 +1,43 @@
+.consultation {
+  min-height: 680px;
+  padding: 103px 0 92px 0;
+  background: url('image/bg2_363.jpg') center (center/cover) no-repeat;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  .error {
+    border: 1px solid red;
+  }
+  label.error {
+    border: none;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+}
+
+.consultation {
+  @media (max-width: 960px) {
+    &__descr {
+      padding-left: 213px;
+    }
+    .feed-form {
+      padding-left: 213px;
+    }
+  }
+}
+
+.consultation {
+  @media (max-width: 576px) {
+    padding: 80px;
+    .title_left {
+      padding-left: 70px;
+    }
+    &__descr {
+      padding-left: 70px;
+    }
+    .feed-form {
+      padding-left: 70px;
+    }
+  }
+}
